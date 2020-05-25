@@ -51,23 +51,29 @@
           <span class="#"> <img src="img/star.svg" width="19" height="17" alt="звезда"></span>
         </article>
         <section>
-          <h2>Подбор жилья</h2>
+          <form action="https://echo.htmlacademy.ru" method="post">
+          <fieldset><legend class="visually-hidden">Подбор жилья</legend>
           <img src="img/background photo.jpg" width="1200" height="217" alt="Главный вид в тумане">
           <h3>Инфраструктура:</h3>
           <ul>
-            <li>Бассейн</li>
-            <li>Парковка</li>
-            <li>Wi-Fi</li>
-          </ul> 
+            <li> <label><input type="checkbox" name="bass" id="appointment-bass" checked> Бассейн</label></li>
+            <li> <label><input type="checkbox" name="park" id="appointment-park">Парковка</label></li>
+            <li> <label><input type="checkbox" name="wi-fi" id="appointment-wi-fi">Wi-Fi</label></li>
+          </ul>
+               
           <h3>Тип жилья</h3>
           <ul>
-            <li>Гостиница</li>
-            <li>Мотель</li>
-            <li>Аппартаменты</li>
-          </ul> 
+            <li> <label><input type="checkbox" name="hotel" id="appointment-hotel" checked> Гостиница</label></li>
+            <li> <label><input type="checkbox" name="motel" id="appointment-motel" checked>Мотель</label></li>
+            <li> <label><input type="checkbox" name="aport" id="appointment-aport" checked>Аппартаменты</label></li>
+           </ul> 
           <p>Стоимость в сутки (Р):</p>
-          <div>от 0 до 3000</div>
-          <button name="#">Показать</button>
+          <input type="range" name="summa" id="appointment-summa" min="0" step="1" max="5000">
+          <output name="summa" id="appointment-summa">3000</output> <br>
+          <input type="submit" value="Показать">
+          
+        </fieldset>
+        </form>
           <p>Найдено:3</p>
           <div>По цене</div>
           <div>По типу</div>
