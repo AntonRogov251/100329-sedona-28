@@ -22,7 +22,34 @@
 </header>
     <main>
       <h1>Гостиницы курорта Седона</h1>
-        <article>
+      <section>
+        <form action="https://echo.htmlacademy.ru" method="post">
+        <h2 class="visually-hidden">Подбор жилья</h2>
+        <!--<img src="img/background photo.jpg" width="1200" height="217" alt="Главный вид в тумане">-->
+        <fieldset><legend>Инфраструктура:</legend>
+        <ul>
+          <li> <label><input type="checkbox" name="bass" id="appointment-bass" checked> Бассейн</label></li>
+          <li> <label><input type="checkbox" name="park" id="appointment-park">Парковка</label></li>
+          <li> <label><input type="checkbox" name="wi-fi" id="appointment-wi-fi">Wi-Fi</label></li>
+        </ul>
+        </fieldset>     
+        <fieldset><legend>Тип жилья</legend>
+        <ul>
+          <li> <label><input type="checkbox" name="hotel" id="appointment-hotel" checked> Гостиница</label></li>
+          <li> <label><input type="checkbox" name="motel" id="appointment-motel" checked>Мотель</label></li>
+          <li> <label><input type="checkbox" name="aport" id="appointment-aport" checked>Аппартаменты</label></li>
+         </ul> 
+        </fieldset>
+        <fieldset><legend>Стоимость в сутки (Р):</legend>
+          <input type="text" name="min-summa" placeholder="от 0">
+          <input type="text" name="min-summa" placeholder="до 3000"><br>
+        <input type="range" name="summa" id="appointment-summa" min="0" step="1" max="5000">
+        
+        <input type="submit" value="Показать">
+        </fieldset>
+      
+      </form>
+      <article>
           <h2>Amara Resort & SPA</h2>
           <img src="img/Layer 21.jpg" width="135" height="90" alt="Фото гостиницы Amara Resort & SPA">
           <p>Гостиница от 4000 Р.</p>
@@ -50,30 +77,7 @@
           <p>Рейтинг </p>
           <span class="#"> <img src="img/star.svg" width="19" height="17" alt="звезда"></span>
         </article>
-        <section>
-          <form action="https://echo.htmlacademy.ru" method="post">
-          <fieldset><legend class="visually-hidden">Подбор жилья</legend>
-          <img src="img/background photo.jpg" width="1200" height="217" alt="Главный вид в тумане">
-          <h3>Инфраструктура:</h3>
-          <ul>
-            <li> <label><input type="checkbox" name="bass" id="appointment-bass" checked> Бассейн</label></li>
-            <li> <label><input type="checkbox" name="park" id="appointment-park">Парковка</label></li>
-            <li> <label><input type="checkbox" name="wi-fi" id="appointment-wi-fi">Wi-Fi</label></li>
-          </ul>
-               
-          <h3>Тип жилья</h3>
-          <ul>
-            <li> <label><input type="checkbox" name="hotel" id="appointment-hotel" checked> Гостиница</label></li>
-            <li> <label><input type="checkbox" name="motel" id="appointment-motel" checked>Мотель</label></li>
-            <li> <label><input type="checkbox" name="aport" id="appointment-aport" checked>Аппартаменты</label></li>
-           </ul> 
-          <p>Стоимость в сутки (Р):</p>
-          <input type="range" name="summa" id="appointment-summa" min="0" step="1" max="5000">
-          <output name="summa" id="appointment-summa">3000</output> <br>
-          <input type="submit" value="Показать">
-          
-        </fieldset>
-        </form>
+       
           <p>Найдено:3</p>
           <div>По цене</div>
           <div>По типу</div>
