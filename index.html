@@ -61,12 +61,19 @@
             <p>Укажите предполагаемые даты поездки,<br>
             и мы покажем Вам лучшие предложения гостиниц в седоне</p>
         <article>
-            <h2>Поиск гостиницы в Седоне</h2>
-            <p>Дата заезда<time datetime="2017-04-24">24 апреля 2017</time></p>
-            <p>Дата выезда<time datetime="2017-07-04">4 июля 2017</time></p>
-            <p>Взрослые <button type="button">2</button></p>
-            <p>Дети<button type="button">0</button></p>        
-            <a href="#">Найти</a>
+          <form action="https://echo.htmlacademy.ru" method="GET">
+          <fieldset> <legend>Поиск гостиницы в Седоне</legend>
+            <p><label>Дата заезда <input type="text" name="date" id="appointment-date" placeholder="24 апреля 2017">
+            </label></p><br>
+            <p><label>Дата выезда <input type="text" name="date-over" id="appointment-date-over" placeholder="4 июля 2017">
+            </label></p>
+            <p><label>Взрослые<input type="number" name="adadults" id="appointment-adults" min="1" max="7" step="1" value="2"></p>
+            </label>
+            <p><label>Дети<input type="number" name="kids" id="appointment-kids" min="0" max="7" step="1" value="1"></p>
+            </label>
+            <input type="submit" value="Найти">
+          </fieldset>
+            </form>
         </article>
         </section>
         <section>
