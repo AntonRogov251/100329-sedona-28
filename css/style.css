@@ -2,11 +2,10 @@
 
 :root{
     --basic-white: #ffffff;
-    --basic-red: #ff0000;
     --basic-black: #000000;
-    --basic-bluу: #81b3d2;
-    --basic-guidance-bluy: #669EC0;
-    --basic-press-bluy: #5496BD;
+    --basic-blue: #81b3d2;
+    --basic-guidance-blue: #669EC0;
+    --basic-press-blue: #5496BD;
     --basic-gray: #766357;
     --basic-guidance-gray: #604E43;
     --basic-press-gray: #503E33;
@@ -64,14 +63,14 @@ body {
   
   .site-navigation a,
   .user-navigation a {
-    color: var(--basic-press-bluy);
+    color: var(--basic-press-blue);
   }
   
   .site-navigation a:hover,
   .site-navigation a:focus,
   .user-navigation a:hover,
   .user-navigation a:focus {
-    background-color: var(--basic-guidance-bluy);
+    background-color: var(--basic-guidance-blue);
   }
   /* Features */
 
@@ -84,7 +83,76 @@ body {
   }
   
   .feature-item h3 {
-    font-size: 30px;
-    line-height: 42px;
+    font-size: 21px;
+    line-height: 21px;
+  }
+  /* Button */
+
+.button {
+    font: inherit;
+    text-align: center;
+    color: var(--basic-white);
+    vertical-align: middle;
+    text-transform: uppercase;
+    background-color: var(--basic-blue);
+    border: none;
+  }
+.button:hover,
+.button:focus,
+.button:active {
+  background-color: var(--basic-guidance-blue);
+}
+
+.button.disabled,
+.button:disabled {
+  cursor: default;
+  opacity: 0.5;
+  background-color: var(--basic-gray);
+}
+/* Main footer */
+
+.main-footer {
+    color: var(--basic-font);
+    background-color: rgba(255, 255, 255, 0.9);
+    background-position: 0 0;
+    background-repeat: repeat;
   }
   
+.footer-contacts a {
+    color: var(--basic-blue);
+    text-decoration: underline;
+  }
+  
+  .footer-contacts a:hover,
+  .footer-contacts a:focus {
+    text-decoration: none;
+  }
+  .footer-social {
+    text-align: center;
+  }
+  
+  .footer-social ul {
+    list-style: none;
+  }
+  
+  .footer-social h2 {
+    font-size: 14px;
+  
+  }
+  
+  /* Social button */
+  
+  .social-button {
+    color: inherit;
+  }
+  
+  .social-button:hover,
+  .social-button:focus {
+    background-color: var(--basic-press-blue);
+  }
+  
+.footer-copyright .button:hover,
+.footer-copyright .button:focus {
+  color: var(--basic-black);
+  background-color: var(--basic-white);
+}
