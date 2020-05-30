@@ -1,0 +1,76 @@
+/*Variables*/
+
+:root{
+    --basic-white: #ffffff;
+    --basic-red: #ff0000;
+    --basic-black: #000000;
+    --basic-bluу: #81b3d2;
+    --basic-guidance-bluy: #669EC0;
+    --basic-press-bluy: #5496BD;
+    --basic-gray: #766357;
+    --basic-guidance-gray: #604E43;
+    --basic-press-gray: #503E33;
+    --basic-background: #EEEEEE;
+    --basic-font: #333333;
+     
+
+}
+/*Global*/
+body {
+    min-width: 1200px;
+    margin: 0;
+    padding: 0;
+    font-family: "PT Sans";
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 700;
+    color: var(--basic-font);
+    text-transform: uppercase;
+    background-color: var(--basic-background);
+    background-image: url("../img/background photo.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+  }
+  a {
+    text-decoration: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  /* Main navigation */
+
+  .main-navigation  {
+    font-size: 14px;
+    line-height: 26px;
+    color: var(--basic-white);
+    background-color: transparent;
+  }
+  
+  .main-navigation-wrapper {
+    background-color: var(--basic-white);
+  }
+  
+  .site-navigation {
+    list-style: none;
+  }
+  .site-navigation-current a:not([href]) {
+    background-color: var(--basic-black);
+  }
+  
+  /* User navigation */
+  
+  
+  .site-navigation a,
+  .user-navigation a {
+    color: var(--basic-press-bluy);
+  }
+  
+  .site-navigation a:hover,
+  .site-navigation a:focus,
+  .user-navigation a:hover,
+  .user-navigation a:focus {
+    background-color: var(--basic-guidance-bluy);
+  }
+  
