@@ -186,7 +186,11 @@ line-height: 1.24;
 /*hotels*/
 .detailed {
 color: var(--basic-white);
-
+background-color: var(--basic-blue);
+}
+.discounts {
+color: var(--basic-white);
+background-color: var(--basic-gray);
 }
 
 
