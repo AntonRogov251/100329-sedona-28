@@ -21,7 +21,7 @@ body {
     padding: 0;
     font-family: "PT Sans", Arial, sans-serif;
     font-size: 14px;
-    line-height: 2;
+    line-height: 1.5;
     font-weight: 700;
     color: var(--basic-font);
     text-transform: uppercase;
@@ -49,7 +49,7 @@ body {
 
   .main-navigation  {
     font-size: 14px;
-    line-height: 2;
+    line-height: 1.9;
     color: var(--basic-white);
     background-color: transparent;
   }
@@ -80,9 +80,13 @@ body {
     background-color: var(--basic-guidance-blue);
   }
   /* Features */
-.features {
+.features h2{
 font-size: 21px;
-line-height: 26px;
+line-height: 1.24;
+}
+.features h3{
+  font-size: 14px;
+  line-height: 1.5;
 }
 
 .features-list {
@@ -91,12 +95,19 @@ line-height: 26px;
   
   .feature-item {
     text-align: center;
+    
   }
-  
-  .feature-item h3 {
+  .feature-item b{
     font-size: 21px;
-    line-height: 2;
+    line-height: 1;
   }
+  .feature-item br{
+    font-size: 14px;
+    line-height: 0.67;
+  }
+
+  
+  
   /* Button */
 
 .button {
@@ -172,3 +183,10 @@ line-height: 26px;
   color: var(--basic-black);
   background-color: var(--basic-white);
 }
+/*hotels*/
+.detailed {
+color: var(--basic-white);
+
+}
+
+
