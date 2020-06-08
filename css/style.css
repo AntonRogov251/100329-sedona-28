@@ -80,6 +80,10 @@ body {
     background-color: var(--basic-guidance-blue);
   }
   /* Features */
+.features {
+font-size: 21px;
+line-height: 26px;
+}
 
 .features-list {
     list-style: none;
