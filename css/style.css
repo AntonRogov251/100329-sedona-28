@@ -38,6 +38,13 @@ body {
     max-width: 100%;
     height: auto;
   }
+  .visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+  }
   /* Main navigation */
 
   .main-navigation  {
@@ -142,8 +149,13 @@ body {
   
   /* Social button */
   
+  .style-social {
+    list-style: none;
+
+  }
   .social-button {
     color: inherit;
+    background-color: var(--basic-blue) ;
   }
   
   .social-button:hover,
@@ -155,11 +167,4 @@ body {
 .footer-copyright .button:focus {
   color: var(--basic-black);
   background-color: var(--basic-white);
-}
-.visually-hidden {
-  position: absolute;
-  clip: rect(0 0 0 0);
-  width: 1px;
-  height: 1px;
-  margin: -1px;
 }
