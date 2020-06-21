@@ -192,5 +192,13 @@ background-color: var(--basic-blue);
 color: var(--basic-white);
 background-color: var(--basic-gray);
 }
-
-
+/*Grid*/
+.page {
+  height: 100%;
+}
+.page-body {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: min-content 1fr min-content;
+  align-content: start;
+}
