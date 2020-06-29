@@ -216,6 +216,27 @@ line-height: 1.24;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
+.housing{
+  background-image: url("../img/icon-1.svg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 160px;
+}
+.meal{
+  background-image: url("../img/icon-3.svg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 160px;
+}
+.souvenirs{
+  background-image: url("../img/icon-2.svg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 160px;
+}
 
 
 /*Crid - container*/
