@@ -182,6 +182,11 @@ line-height: 1.24;
   .advantage-1{
     background-image: url("../img/image.jpg"); 
     background-size: auto;
+    min-height: 256px;
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-color: var(--basic-blue);
+    padding-right: 851px;
   }
 
   .feature-item-2{
