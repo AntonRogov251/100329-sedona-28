@@ -156,9 +156,9 @@ line-height: 1.24;
   list-style: none;
   
   margin-bottom: 80px;
-  outline: 5px solid rgba(255, 0, 0 , 0.3);
+  outline: 5px solid rgba(255, 200, 0 , 0.3);
 }
-.features-list li{
+.features-list > li{
   margin-bottom: 80px;
   outline: 5px solid rgba(255, 0, 0 , 0.3);
 }
@@ -179,6 +179,14 @@ line-height: 1.24;
     outline-offset: -5px;
     
   }
+
+  .feature-item-2{
+  
+    grid-column: 1/4;
+
+  }
+
+
   .feature-item b{
     font-size: 21px;
     line-height: 1;
