@@ -195,6 +195,12 @@ line-height: 1.24;
     font-size: 14px;
     line-height: 0.67;
   }
+.internal-list{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+
 /*Crid - container*/
 .grid-container {
   display: grid;
