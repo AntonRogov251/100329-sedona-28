@@ -171,13 +171,17 @@ line-height: 1.24;
   .feature-item-1 {
     grid-column: 1/4;
     grid-row: 1/2;
-    background-image: url("../img/image.jpg"); 
+    
     
     text-align: center;
 
     outline: 5px solid rgba(0, 255, 255 , 0.3);
     outline-offset: -5px;
     
+  }
+  .advantage-1{
+    background-image: url("../img/image.jpg"); 
+    background-size: auto;
   }
 
   .feature-item-2{
