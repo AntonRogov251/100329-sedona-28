@@ -79,7 +79,7 @@ body {
   }
   
   .main-navigation-wrapper {
-    width: 1200px;
+    width: 100%;
     margin-bottom: 0px;
     background-color: var(--basic-white);
     
@@ -103,9 +103,9 @@ body {
   }
   /*Container*/
   .container {
-    width: 1280px;
+    width: 100%;
     margin: 0 auto;
-    padding: 0 10px;
+    padding: 0 ;
   }
   .main-navigation-wrapper .container {
     display: flex;
@@ -117,7 +117,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 1200px;
+    width: 100%;
     margin: 0;
     padding: 0;
     height: 56px;
