@@ -32,6 +32,7 @@ body {
   }
   a {
     text-decoration: none;
+    
   }
   
   img {
@@ -52,11 +53,6 @@ body {
     display: grid;
     grid-template-rows: min-content 1fr min-content;
     align-content: start;
-    
-
-    margin-bottom: 80px;
-    outline: 5px solid rgba(26, 6, 87 , 0.3);
-
   }
   
   /*Main-header*/
@@ -93,6 +89,9 @@ body {
   .main-header-logo {
     width: 138px;
     height: 70px;
+  }
+  .logo{
+    position: absolute;
   }
   .welcome-logo {
     display: flex;
