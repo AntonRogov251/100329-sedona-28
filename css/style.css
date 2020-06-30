@@ -16,7 +16,6 @@
 }
 /*Global*/
 body {
-    min-width: 1200px;
     margin: 0;
     padding: 0;
     font-family: "PT Sans", Arial, sans-serif;
@@ -46,6 +45,14 @@ body {
     height: 1px;
     margin: -1px;
   }
+  .wrapper{
+    width: 1200px;
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: min-content 1fr min-content;
+    align-content: start;
+  }
+  
   /*Main-header*/
   .main-header{
     margin-bottom: 0px;
@@ -339,10 +346,4 @@ background-color: var(--basic-gray);
   width: auto;
   
   
-}
-.page-body {
-  min-height: 100%;
-  display: grid;
-  grid-template-rows: min-content 1fr min-content;
-  align-content: start;
 }
