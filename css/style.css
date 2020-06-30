@@ -48,9 +48,15 @@ body {
   .wrapper{
     width: 1200px;
     min-height: 100%;
+    margin: auto;
     display: grid;
     grid-template-rows: min-content 1fr min-content;
     align-content: start;
+    
+
+    margin-bottom: 80px;
+    outline: 5px solid rgba(26, 6, 87 , 0.3);
+
   }
   
   /*Main-header*/
