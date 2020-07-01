@@ -25,7 +25,7 @@ body {
     color: var(--basic-font);
     text-transform: uppercase;
     background-color: var(--basic-background);
-    background-image: url("../img/background photo.jpg");
+    
     background-position: top center;
     background-repeat: no-repeat;
     
@@ -53,6 +53,7 @@ body {
     display: grid;
     grid-template-rows: min-content 1fr min-content;
     align-content: start;
+    background-color: var(--basic-white);
   }
   
   /*Main-header*/
@@ -106,6 +107,10 @@ body {
     position: absolute;
   }
   .welcome-logo {
+    background-image: url("../img/background photo.jpg");
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: 509px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -113,7 +118,6 @@ body {
     margin-top: 64px;
   }
   /*Container*/
- 
   
   
   /* User navigation */
