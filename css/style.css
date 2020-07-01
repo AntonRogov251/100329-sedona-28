@@ -99,8 +99,15 @@ body {
     list-style: none;
     font-size: 14px;
     background-color: var(--basic-white);
+    
   }
-  
+  .site-navigation li{
+    width: 228px;
+    
+  }
+  .site-navigation li:nth-child(3){
+    margin-left: auto;
+  }
   /*Logo*/
   .main-header-logo {
     width: 138px;
