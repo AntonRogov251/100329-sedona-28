@@ -63,15 +63,18 @@ body {
   /* Main navigation */
 
   .main-navigation  {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  
     
+   
     color: var(--basic-white);
     background-color: transparent;
   }
-  
+  .logo{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+  }
+
   .main-navigation-wrapper {
     width: 100%;
     margin-bottom: 0px;
@@ -103,9 +106,7 @@ body {
     width: 138px;
     height: 70px;
   }
-  .logo{
-    position: absolute;
-  }
+ 
   .welcome-logo {
     background-image: url("../img/background photo.jpg");
     background-repeat: no-repeat;
@@ -117,6 +118,7 @@ body {
     margin-bottom: 122px;
     margin-top: 64px;
   }
+
   /*Container*/
   
   
