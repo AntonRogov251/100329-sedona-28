@@ -124,7 +124,7 @@ body {
     url("../img/intro-mask.svg") bottom,
     url("../img/background\ photo.jpg");
     
-    
+    background-position: center bottom -2px;
     background-repeat: no-repeat;
     
     width: 1200px;
