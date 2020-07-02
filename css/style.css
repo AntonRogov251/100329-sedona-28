@@ -112,9 +112,7 @@ body {
     margin-left: 72px;
     
   }
-   .site-navigation li:nth-child(4){
-    
-  }
+   
   /*Logo*/
   .main-header-logo {
     width: 138px;
@@ -122,10 +120,13 @@ body {
   }
  
   .welcome-logo {
-    background: url("../img/background photo.jpg"),
-                url("../img/intro-mask.svg");
+    background: 
+    url("../img/intro-mask.svg") bottom,
+    url("../img/background\ photo.jpg");
+    
+    
     background-repeat: no-repeat;
-   
+    
     width: 1200px;
     height: 509px;
     display: flex;
@@ -133,6 +134,7 @@ body {
     align-items: center;
     margin-bottom: 41px;
     margin-top: 0px;
+
   }
   .welcome-logo img{
     margin-top: 62px;
@@ -172,10 +174,13 @@ body {
 .features h2{
 font-size: 21px;
 line-height: 1.24;
+text-align: center;
+text-transform: uppercase;
 }
 .features h3{
   font-size: 14px;
   line-height: 1.5;
+  margin-bottom: 51px;
 }
 
 .features-list {
@@ -213,15 +218,24 @@ line-height: 1.24;
   .advantage-1{
     background-image: url("../img/image.jpg"); 
     background-size: auto;
+    color: var(--basic-white);
     min-height: 256px;
     background-repeat: no-repeat;
     background-position: top right;
     background-color: var(--basic-blue);
     padding-right: 851px;
+    font-size: 14px;
   }
+  .advantage-1 b{
+    font-size: 21px;
+    line-height: 1;
+
+  }
+  
   .advantage-2{
      background-image: url("../img/image-2.jpg");
      background-size: auto;
+     color: var(--basic-white);
      min-height: 256px;
      background-repeat: no-repeat;
      background-position: top left;
