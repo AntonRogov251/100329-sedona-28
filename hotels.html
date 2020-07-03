@@ -9,25 +9,28 @@
 </head>
 
 <body>
-
+  <div class="wrapper">
 <header>
-    <nav class="main-navigation">
-      <a href="index.html">
-        <img src="img/logo.svg" width="138" height="70" alt="Логотип Седона">
-      </a>
-    <div class="main-navigation-wraper">
-      <ul class="site-navigation">
-        <li><a href="#">Информация</a></li>
-        <li><a href="#">Фото и видео</a></li>
-        <li><a href="#">Карта штата</a></li>
-        <li><a href="hotels.html">Гостиницы</a></li>
-    </ul>
-  </div>
-    </nav>
+      <nav class="main-navigation"> 
+    <a class="logo" href="index.html"><img src="img/logo.svg" width="138" height="70" alt="Логотип Седона">
+          </a>
+      
+          
+          <ul class="site-navigation">
+            <li><a href="#">Информация</a></li>
+            <li><a href="#">Фото и видео</a></li>
+            
+            <li><a href="#">Карта штата</a></li>
+            <li><a href="hotels.html">Гостиницы</a></li>
+          </ul>
+          
+        
+      
+  </nav>
 </header>
-    <main>
-      <h1>Гостиницы курорта Седона</h1>
-      <section>
+    <main class="container">
+      <h1 class="visually-hidden">Гостиницы курорта Седона</h1>
+      <section class="parametr">
         <form action="https://echo.htmlacademy.ru" method="post">
         <h2 class="visually-hidden">Подбор жилья</h2>
         <!--<img src="img/background photo.jpg" width="1200" height="217" alt="Главный вид в тумане">-->
@@ -54,6 +57,8 @@
         </fieldset>
       
       </form>
+      </section>
+      <section class="found">
       <p>Найдено:3</p>
         <div>По цене</div>
         <div>По типу</div>
@@ -92,14 +97,14 @@
         </section>
     </main>
     <footer class="page-footer main-footer">
-      <div class="container">
+      <div class="main-container">
         <section class="footer-contacts">
             <h2>#visitsedona</h2>
             <p><a href="tel:+74956660166">тел: +7(495)666-01-66</a></p>
             
         </section>
         <section class="footer-social">
-            <h2>Давайте дружить!</h2>
+            <h2 class="visually-hidden">Давайте дружить!</h2>
             <ul class="style-social">
                 <li >
                   <a class="social-button" href="#">
@@ -126,16 +131,16 @@
                    </a> 
                 </li>                
               </ul>
+        </section>
+        <section>
               <p class="footer-copyright">
                 Website by
                 <a href="https://htmlacademy.ru/intensive/htmlcss"> <img src="img/logo-htmlacademy.svg" width="114" height="40" alt="Логотип академии"></a>
               </p>
+
         </section>
       </div>
-      <!--Завершение базовой стилизации-->
-
-
-
     </footer>
+  </div>
 </body>
 </html>
