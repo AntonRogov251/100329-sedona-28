@@ -470,15 +470,13 @@ background-color: var(--basic-gray);
   
 }
 /*Hotels*/
-.parametr{
+.parametr {
+  background: url("../img/filter.jpg");
+  background-repeat: no-repeat;
+ }
+.parametr fieldset{
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  background: url("../img/background\ photo.jpg");
-  background-repeat: no-repeat;
-  backdrop-filter: blur(8px);
 }
 .found{
   display: flex;
